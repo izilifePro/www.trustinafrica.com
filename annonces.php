@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
@@ -21,7 +21,6 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 </head>
 <body>
     <header>
@@ -63,17 +62,17 @@
                             <div class="dropdown-menu dropdown-settings">
                                 <div class="media">
                                     <a class="media-left" href="#">
-                                        <img src="assets/img/64-64.jpg" alt="" class="img-rounded" />
+                                        <img src="assets/img/64-64.png" alt="" class="img-rounded" />
                                     </a>
                                     <div class="media-body">
-                                        <h4 class="media-heading">IZILIFE</h4>
-                                        <h5>Apprentis developpeur</h5>
+                                        <h4 class="media-heading">Isidore FEUJO</h4>
+                                        <h5>Expert comptable</h5>
 
                                     </div>
                                 </div>
                                 <hr />
-                                <h5><strong>Etudiant : </strong></h5>
-                                MIAGE
+                                <h5><strong>UAFM</strong></h5>
+                                LA CELLE SAINT CLOUD
                                 <hr />
                                 <a href="#" class="btn btn-info btn-sm">Full Profile</a>&nbsp; <a href="login.html" class="btn btn-danger btn-sm">Logout</a>
 
@@ -94,14 +93,13 @@
                     <div class="navbar-collapse collapse ">
                         <ul id="menu-top" class="nav navbar-nav navbar-right">
                             <li><a href="index.html">Accueil</a></li>
-                            <li><a href="ui.html" class="menu-top-active">Investissements</a></li>
-                            <li><a href="table.html">Entreprises</a></li>
-                            <li><a href="forms.html">Institutionnelles</a></li>
-							<li><a href="annonces.html">Passer une annonce</a></li>
-                        </ul>
+                            <li><a href="investissements.php">Investissements</a></li>
+                            <li><a href="entreprises.php">Entreprises</a></li>
+                            <li><a href="institutionnelles.php">Institutionnelles</a></li>
+							<li><a href="annonces.php" class="menu-top-active">Passer une annonce</a></li>
+						</ul>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -217,10 +215,82 @@
                      <div class="Compose-Message">               
 						<div class="panel panel-success">
 							<div class="panel-body">
-								<p>Affichage ici :=) </br>
-								Des lignes </br>
-								encore des lignes !!
-								</p>
+								<p>Rechercher ou passer une annonce </p>
+								<div class="col-md-12">
+                  <!--   Kitchen Sink -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Rechercher une annonce
+							<table class="table table-striped table-bordered table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>Quoi rechercher ?</th>
+                                            <th><input type="text" name="quoi"/></th>
+                                            <th>Ou rechercher ?</th>
+                                            <th><input type="text" name="ou"/></th>
+											<th><a href="/php/rechercher.php"><input type="submit" name="valider" value="Rechercher"/></a></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                            </table>
+                        </div>
+                       
+                    </div>
+					<div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h2>Passer une annonce</h2>
+							<table class="table table-striped table-bordered table-hover">
+                                    <thead>
+                                        <ul class="#">
+											<li class="#"> EMPLOIS
+												<ul class="#">
+													<li class="#"><a href="#">DEPOSER UN CV</a></li>
+													<li class="#"><a href="#">OFFRE D'EMPLOI</a></li>
+													<li class="#"><a href="#">DEMANDE D'EMPLOI</a></li>
+													<li class="#"><a href="#">OFFRE DE STAGE</a></li>
+													<li class="#"><a href="#">DEMANDE DE STAGE</a></li>
+												</ul>
+											</li>
+											<li class="#"> IMMOBILIERS D'ENTREPRISES
+												<ul class="#">
+													<li class="#"><a href="php/immo/achat.php">ACHAT</a></li>
+													<li class="#"><a href="#">VENTE</a></li>
+													<li class="#"><a href="#">LOCATION</a></li>
+												</ul>
+											</li>
+											<li class="#">MATERIELS DE TRANSPORT ET VEHICULES PROFESSIONNELS
+												<ul class="#">
+													<li class="#"><a href="#">ACHAT</a></li>
+													<li class="#"><a href="#">VENTE</a></li>
+													<li class="#"><a href="#">LOCATION</a></li>
+												</ul>
+											</li>
+											<li class="#">EQUIPEMENTS, MATERIELS ET MOBILIERS PROFESSIONNELS
+												<ul class="#">
+													<li class="#"><a href="#">ACHAT</a></li>
+													<li class="#"><a href="#">VENTE</a></li>
+													<li class="#"><a href="#">LOCATION</a></li>
+												</ul>
+											</li>
+											<li class="#">STOCKS PROFESSIONNELS
+												<ul class="#">
+													<li class="#"><a href="#">ACHAT</a></li>
+													<li class="#"><a href="#">VENTE</a></li>
+												</ul>
+											</li>
+										</ul>
+
+                                    </thead>
+                                    <tbody>
+                                        
+                                    </tbody>
+                                </table>
+                        </div>
+                       
+                    </div>
+                     <!-- End  Kitchen Sink -->
+                </div>
 							</div>
 							<div class="panel-footer text-muted">
 								<strong>Note : </strong>
@@ -249,6 +319,8 @@
 					<a href="www.facebook.com" target="_blank">Rejoignez-nous sur facebook</a>
                 </div>
             </div>
+        </div>
+    </footer>
     <!-- FOOTER SECTION END-->
     <!-- JAVASCRIPT AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
     <!-- CORE JQUERY SCRIPTS -->
