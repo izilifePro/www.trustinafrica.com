@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
@@ -95,11 +95,9 @@
                             <li><a href="index.html">Accueil</a></li>
                             <li><a href="ui.html">Investissements</a></li>
                             <li><a href="table.html">Entreprises</a></li>
-                            <li><a href="forms.html" class="menu-top-active">Institutionnelles</a></li>
-							<li><a href="annonces.html">Passer une annonce</a></li>
+                            <li><a href="forms.html">Institutionnelles</a></li>
+							<li><a href="annonces.html" class="menu-top-active">Passer una annonce</a></li>
 						</ul>
-							</li>
-                        </ul>
                     </div>
                 </div>
 
@@ -218,47 +216,59 @@
                      <div class="Compose-Message">               
 						<div class="panel panel-success">
 							<div class="panel-body">
-								<p>Affichage ici :=) </p>
+								<p>Rechercher ou passer une annonce </p>
 								<div class="col-md-12">
                   <!--   Kitchen Sink -->
-                    <div class="panel panel-default">
+					<div class="panel panel-default">
                         <div class="panel-heading">
-                            Exemple de tableau d'affichage de données !
-                        </div>
-                        <div class="panel-body">
-                            <div class="table-responsive">
-                                <table class="table table-striped table-bordered table-hover">
+                            Liste des annonces disponibles
+							<table class="table table-striped table-bordered table-hover">
                                     <thead>
-                                        <tr>
-                                            <th>#</th>
-                                            <th>First Name</th>
-                                            <th>Last Name</th>
-                                            <th>Username</th>
-                                        </tr>
+                                        <ul class="#">
+											<li class="#"> Fonds de commerce
+												<ul class="#">
+													<li class="#"><a href="#">ACHAT</a></li>
+													<li class="#"><a href="#">VENTE</a></li>
+													<li class="#"><a href="#">LOCATION</a></li>
+												</ul>
+											</li>
+											<li class="#"> Terres et terrains
+												<ul class="#">
+													<li class="#"><a href="assets/immo/achat.php">ACHAT</a></li>
+													<li class="#"><a href="#">VENTE</a></li>
+													<li class="#"><a href="#">LOCATION</a></li>
+												</ul>
+											</li>
+											<li class="#">Bureaux et locaux commerciaux
+												<ul class="#">
+													<li class="#"><a href="#">ACHAT</a></li>
+													<li class="#"><a href="#">VENTE</a></li>
+													<li class="#"><a href="#">LOCATION</a></li>
+												</ul>
+											</li>
+											<li class="#">Entrepots et Magasins
+												<ul class="#">
+													<li class="#"><a href="#">ACHAT</a></li>
+													<li class="#"><a href="#">VENTE</a></li>
+													<li class="#"><a href="#">LOCATION</a></li>
+												</ul>
+											</li>
+											<li class="#">Logements (Appartements et Maisons)
+												<ul class="#">
+													<li class="#"><a href="#">ACHAT</a></li>
+													<li class="#"><a href="#">VENTE</a></li>
+													<li class="#"><a href="#">LOCATION</a></li>
+												</ul>
+											</li>
+										</ul>
+
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Mark</td>
-                                            <td>Otto</td>
-                                            <td>@mdo</td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>@fat</td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>Larry</td>
-                                            <td>the Bird</td>
-                                            <td>@twitter</td>
-                                        </tr>
+                                        
                                     </tbody>
                                 </table>
-                            </div>
                         </div>
+                       
                     </div>
                      <!-- End  Kitchen Sink -->
                 </div>
