@@ -91,10 +91,11 @@
                         <ul id="menu-top" class="nav navbar-nav navbar-right">
                             <li><a href="index.html">Accueil</a></li>
                             <li><a href="investissements.php">Pourquoi investir en Afrique</a></li>
-                            <li><a href="entreprises.php" class="menu-top-active">Ou investir</a></li>
+                            <li><a href="entreprises.php">Ou investir</a></li>
 							<li><a href="institutionnelles.php">Institutions</a></li>                   
-                            <li><a href="ambassade.php">Ambassades</a></li>         
-							<li><a href="diaspora.php">Diaspora</a></li>                                <li><a href="annonces.php">Passer une annonce</a></li> 
+                            <li><a href="ambassade.php">Ambassades</a></li>       
+                            <li><a href="diaspora.php" class="menu-top-active">Diaspora</a></li>  
+							<li><a href="annonces.php">Passer une annonce</a></li>
                         </ul>
                     </div>
                 </div>

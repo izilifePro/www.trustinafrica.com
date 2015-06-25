@@ -93,10 +93,12 @@
                     <div class="navbar-collapse collapse ">
                         <ul id="menu-top" class="nav navbar-nav navbar-right">
                             <li><a href="index.html">Accueil</a></li>
-                            <li><a href="investissements.php">Investissements</a></li>
-                            <li><a href="entreprises.php">Entreprises</a></li>
-                            <li><a href="institutionnelles.php">Institutionnelles</a></li>
-							<li><a href="annonces.php" class="menu-top-active">Passer une annonce</a></li>
+                            <li><a href="investissements.php">Pourquoi investir en Afrique</a></li>
+                            <li><a href="entreprises.php">Ou investir</a></li>
+                            <li><a href="institutionnelles.php">Institutions</a></li>                   
+                            <li><a href="ambassade.php">Ambassades</a></li> 
+                            <li><a href="diaspora.php">Diaspora</a></li> 
+                            <li><a href="annonces.php" class="menu-top-active">Passer une annonce</a></li>
 						</ul>
                     </div>
                 </div>
@@ -118,10 +120,12 @@
                             <div class="panel-body">
                                 <ul>
                                      <li>
-                                        <a href="#"><span class="glyphicon glyphicon-align-left text-success" ></span>PAYS</a>
+                                        <a href="#"><span class="glyphicon glyphicon-align-left text-success" ></span>Pays</a>
+                                    </li> <li>
+                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger" ></span>Indicateurs</a>
                                     </li>
                                      <li>
-                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger" ></span>THEMES</a>
+                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger" ></span>Thematiques</a>
                                     </li>
                                 </ul>
                             </div>
@@ -130,20 +134,26 @@
 					<div class="notice-board">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-							<strong>ADRESSES UTILES</strong> 
+							<strong>ADRESSES UTILES EN AFRIQUE</strong> 
                                 <div class="pull-right" >
                                 </div>
                             </div>
                             <div class="panel-body">
                                 <ul>
                                      <li>
-                                        <a href="#"><span class="glyphicon glyphicon-align-left text-success"></span>AMBASSADES</a>
+                                        <a href="#"><span class="glyphicon glyphicon-align-left text-success"></span>Présidences et Ministères</a>
                                     </li>
                                      <li>
-                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger" ></span>INSTITUTIONS</a>
+                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger"></span>Chambres consulaires</a>
                                     </li>
 									<li>
-                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger" ></span>ORGANISATIONS AFRICAINES</a>
+                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger"></span>Organisations patronales</a>
+                                    </li>                                                                             <li>
+                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger"></span>Bureau d'enregistrements ou d'immatriculations</a>
+                                    </li>                                                                            <li>
+                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger"></span>Organisations chargées des entreprises et investissements</a>
+                                    </li>                                                                              <li>
+                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger"></span>Cabinets spécialisés</a>
                                     </li>
                                 </ul>
                             </div>
@@ -159,43 +169,17 @@
                             <div class="panel-body">
                                 <ul>
                                      <li>
-                                        <a href="#"><span class="glyphicon glyphicon-align-left text-success" ></span>ANNUAIRE</a>
+                                        <a href="#"><span class="glyphicon glyphicon-align-left text-success" ></span>Annuaire</a>
                                     </li>
                                      <li>
-                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger" ></span>EMPLOIS</a>
+                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger" ></span>Agenda / Evenements</a>
                                     </li>
-									<li>
-                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger" ></span>PETITES ANNONCES</a>
-                                    </li>
+									
                                 </ul>
                             </div>
                         </div>
                     </div>
-					<div class="notice-board">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-							<strong>INFOS INDISPENSABLES</strong> 
-                                <div class="pull-right" >
-                                </div>
-                            </div>
-                            <div class="panel-body">
-                                <ul>
-                                     <li>
-                                        <a href="#"><span class="glyphicon glyphicon-align-left text-success" ></span>ACCORD COOPERATION</a>
-                                    </li>
-									<li>
-                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger" ></span>COUT DE FACTEUR</a>
-                                    </li>
-                                     <li>
-                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger" ></span>AGENDA</a>
-                                    </li>
-									<li>
-                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger" ></span>EVENEMENT</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+					  
                     <hr />
                     <div class="text-center alert alert-warning">
                         <a href="#" class="btn btn-social btn-facebook">
@@ -240,47 +224,105 @@
 					<div class="panel panel-default">
                         <div class="panel-heading">
                             <h2>Passer une annonce</h2>
-							<table class="table table-striped table-bordered table-hover">
+							<table class="table table-striped table-hover">
                                     <thead>
-                                        <ul class="#">
-											<li class="#"> EMPLOIS
-												<ul class="#">
-													<li class="#"><a href="#">DEPOSER UN CV</a></li>
-													<li class="#"><a href="#">OFFRE D'EMPLOI</a></li>
-													<li class="#"><a href="#">DEMANDE D'EMPLOI</a></li>
-													<li class="#"><a href="#">OFFRE DE STAGE</a></li>
-													<li class="#"><a href="#">DEMANDE DE STAGE</a></li>
-												</ul>
-											</li>
-											<li class="#"> IMMOBILIERS D'ENTREPRISES
-												<ul class="#">
-													<li class="#"><a href="php/immo/achat.php">ACHAT</a></li>
-													<li class="#"><a href="#">VENTE</a></li>
-													<li class="#"><a href="#">LOCATION</a></li>
-												</ul>
-											</li>
-											<li class="#">MATERIELS DE TRANSPORT ET VEHICULES PROFESSIONNELS
-												<ul class="#">
-													<li class="#"><a href="#">ACHAT</a></li>
-													<li class="#"><a href="#">VENTE</a></li>
-													<li class="#"><a href="#">LOCATION</a></li>
-												</ul>
-											</li>
-											<li class="#">EQUIPEMENTS, MATERIELS ET MOBILIERS PROFESSIONNELS
-												<ul class="#">
-													<li class="#"><a href="#">ACHAT</a></li>
-													<li class="#"><a href="#">VENTE</a></li>
-													<li class="#"><a href="#">LOCATION</a></li>
-												</ul>
-											</li>
-											<li class="#">STOCKS PROFESSIONNELS
-												<ul class="#">
-													<li class="#"><a href="#">ACHAT</a></li>
-													<li class="#"><a href="#">VENTE</a></li>
-												</ul>
-											</li>
-										</ul>
-
+										<form method="post" action="annonces.php">
+                                         	<tr> 
+                                            	<th><label>Choisir un catégorie : </label></th>
+                                                <th>
+													<select name="selection1">
+                                            			<option name="immo">Immobiliers d'entreprise</option>
+                                            			<option name="mat">Materiels de transport et vehicules professionnels</option>
+                                              	     	<option name="equip">Equipements, Matériels et mobiliers professionnels</option>  
+                                               			<option name="stock">Stocks professionnels</option>
+                                           			 </select>
+                                             	</th>
+                                            </tr>
+                                            <tr> 
+                                            	<th><label>Sous catégorie de l'annonce : </label></th>
+                                                <th>
+													<select name="selection2">
+                                            			<optgroup name="groupe1">
+                                                        	<option name="fondComm" >Fonds de commerce</option>
+                                            				<option name="terreTerrain">Terres et terrains</option>
+                                              	     		<option name="bureau">Bureaux  et locaux commerciaux</option>  
+                                               				<option name="Entrepot">Entrepôts et magasins</option>
+                                               				<option name="logement">Logements (appartements et maisons...)</option>
+                                                       	    <option name="autre">Autres</option>
+                                                        </optgroup>
+                                                        <optgroup name="groupe2">
+                                                        	<option name="fondComm">Véhicules utilitaires</option>
+                                            				<option name="terreTerrain">Matériels de levage et de manutention</option>
+                                              	     		<option name="bureau">Voitures particulières</option>  
+                                               				<option name="Entrepot">Motos, 2 roues et tricycles</option>
+                                               				<option name="logement">Autres matériels et véhicules professionnels</option>
+                                                        </optgroup>
+                                                        <optgroup name="groupe3">
+                                                        	<option name="fondComm">Matériel et équipements pour agriculture, élevage et pêche</option>
+                                            				<option name="terreTerrain">Matériels et équipement pour Bâtiments et travaux publics (BTP) et Chantiers</option>
+                                              	     		<option name="bureau">Matériel et équipements de Boulangerie et pâtisserie</option>  
+                                               				<option name="Entrepot">Matériel et équipement secteur médical, paramédical et santé</option>
+                                               				<option name="logement">Matériel et équipement pour Hôtellerie, restauration et tourisme</option>
+                                                            <option name="logement">Mobilier de bureau</option>
+                                                            <option name="logement">Outillages, petits outils et matériels</option>
+                                                            <option name="logement">Autres</option>
+                                                        </optgroup>
+                                                        <optgroup name="groupe4">
+                                                        	<option name="fondComm">Fournitures diverses</option>
+                                            				<option name="terreTerrain">Marchandises et produits finis</option>
+                                              	     		<option name="bureau">Matières premières</option>  
+                                               				<option name="Entrepot">Pièces détachées et de rechange</option>
+                                               				<option name="logement">Autres stocks professionnels</option>
+                                                        </optgroup>
+                                                         </select>
+                                             	</th>
+                                            </tr>
+                                            <tr> 
+                                            	<th><label>Annonce à titre ? :</label></th>
+                                                <th>
+													<input type="checkbox" name="particulier" checked> Particulier &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <input type="checkbox" name="professionnel"> Professionnel
+                                             	</th>
+                                            </tr>
+                                            <tr> 
+                                            	<th><label>Type de l'annonce :</label></th>
+                                                <th>
+													<input type="checkbox" name="achat" checked> Achat &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <input type="checkbox" name="vente"> Vente  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    <input type="checkbox" name="location"> Location
+                                             	</th>
+                                            </tr>
+                                            <tr> 
+                                            	<th><label>Titre de l'annonce :</label></th>
+                                                <th>
+													<input type="text" name="titre" placeholder="Titre"> 
+                                             	</th>
+                                            </tr>
+                                            <tr> 
+                                            	<th><label>Descriptif de l'annonce :</label></th>
+                                                <th>
+													<textarea cols="46" rows="5" name="descriptif" placeholder="Décrire l'intitulé de votre annonce"></textarea>
+                                             	</th>
+                                            </tr>
+                                            <tr> 
+                                            	<th><label>Prix de l'annonce :</label></th>
+                                                <th>
+													<input type="text" name="prix" placeholder="Euros">
+                                             	</th>
+                                            </tr>
+                                            <tr> 
+                                            	<th><label>Pays de l'annonce :</label></th>
+                                                <th>
+													<input type="text" name="pays" placeholder="Pays">
+                                             	</th>
+                                            </tr>
+                                            <tr> 
+                                            	<th><label></label></th>
+                                                <th>
+													<input type="submit" name="valider" value="Publier votre annonce">
+                                             	</th>
+                                            </tr>
+                                         </form>					
                                     </thead>
                                     <tbody>
                                         

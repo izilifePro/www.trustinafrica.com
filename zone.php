@@ -28,7 +28,10 @@
             <div class="row">
                 <div class="col-md-12">
                     <strong>Croire en Afrique, c'est réussir l'avenir !</strong>
+                    &nbsp;&nbsp;
+                    <strong></strong>
                 </div>
+
             </div>
         </div>
     </header>
@@ -62,14 +65,14 @@
                                         <img src="assets/img/64-64.png" alt="" class="img-rounded" />
                                     </a>
                                     <div class="media-body">
-                                        <h4 class="media-heading">Isidore FEUJO </h4>
+                                        <h4 class="media-heading">Isidore FEUJO</h4>
                                         <h5>Expert comptable</h5>
 
                                     </div>
                                 </div>
                                 <hr />
-                                <h5><strong>UAFM</strong></h5>
-									LA CELLE SAINT CLOUD
+                                <h5><strong>UAFM </strong></h5>
+                                LA CELLE SAINT CLOUD
                                 <hr />
                                 <a href="#" class="btn btn-info btn-sm">Full Profile</a>&nbsp; <a href="login.html" class="btn btn-danger btn-sm">Logout</a>
 
@@ -91,10 +94,13 @@
                         <ul id="menu-top" class="nav navbar-nav navbar-right">
                             <li><a href="index.html">Accueil</a></li>
                             <li><a href="investissements.php">Pourquoi investir en Afrique</a></li>
-                            <li><a href="entreprises.php" class="menu-top-active">Ou investir</a></li>
-							<li><a href="institutionnelles.php">Institutions</a></li>                   
+                            <li><a href="entreprises.php">Ou investir</a></li>
+                            <li><a href="institutionnelles.php">Institutions</a></li>                   
                             <li><a href="ambassade.php">Ambassades</a></li>         
+							<li><a href="zone.php" class="menu-top-active">Zones Franches</a></li>
 							<li><a href="diaspora.php">Diaspora</a></li>                                <li><a href="annonces.php">Passer une annonce</a></li> 
+						</ul>
+							</li>
                         </ul>
                     </div>
                 </div>
@@ -196,53 +202,10 @@
                      <div class="Compose-Message">               
 						<div class="panel panel-success">
 							<div class="panel-body">
-								<p>Affichage la liste des entreprises disponibles ici :=) </p>
+								<p>Affichage ici :=) </p>
 								<div class="col-md-12">
                   <!--   Kitchen Sink -->
                     <div class="panel panel-default">
-                        <div class="panel-heading">
-                            Exemple de tableau d'affichage de données !
-                        </div>
-                        <div class="panel-body">
-                            <div class="table-responsive">
-                                <table class="table table-striped table-bordered table-hover">
-                                    <thead>
-                                        <tr>
-                                            <th>#</th>
-                                            <th>First Name</th>
-                                            <th>Last Name</th>
-                                            <th>Username</th>
-											<th>Adresse</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Mark</td>
-                                            <td>Otto</td>
-                                            <td>@mdo</td>
-											<td>@mdo</td>
-                                        </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>Jacob</td>
-                                            <td>Thornton</td>
-                                            <td>@fat</td>
-											<td>@mdo</td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>Larry</td>
-                                            <td>the Bird</td>
-                                            <td>@twitter</td>
-											<td>@mdo</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-					<div class="panel panel-default">
                         <div class="panel-heading">
                             Exemple de tableau d'affichage de données !
                         </div>
@@ -298,9 +261,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    &copy; 2015 YourCompany | By : <a href="#" target="#">UAFM</a>
+                    &copy; 2015 YourCompany | By : <a href="#" target="_blank">UAFM</a>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="www.facebook.com" target="_blank">Rejoignez-nous sur facebook</a>
                 </div>
-
             </div>
         </div>
     </footer>
