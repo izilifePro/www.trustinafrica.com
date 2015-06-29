@@ -90,11 +90,10 @@
                     <div class="navbar-collapse collapse ">
                         <ul id="menu-top" class="nav navbar-nav navbar-right">
                             <li><a href="index.html">Accueil</a></li>
-                            <li><a href="investissements.php">Pourquoi investir en Afrique</a></li>
-                            <li><a href="entreprises.php" class="menu-top-active">Ou investir</a></li>
-							<li><a href="institutionnelles.php">Institutions</a></li>                   
-                            <li><a href="ambassade.php">Ambassades</a></li>         
-							<li><a href="diaspora.php">Diaspora</a></li>                                <li><a href="annonces.php">Passer une annonce</a></li> 
+                            <li><a href="investissements.php">Investissements</a></li>
+                            <li><a href="entreprises.php" class="menu-top-active">Entreprises</a></li>
+							<li><a href="institutionnelles.php">Institutionnelles</a></li>
+							<li><a href="annonces.php">Passer une annonce</a></li>
                         </ul>
                     </div>
                 </div>
@@ -117,12 +116,10 @@
                             <div class="panel-body">
                                 <ul>
                                      <li>
-                                        <a href="#"><span class="glyphicon glyphicon-align-left text-success" ></span>Pays</a>
-                                    </li> <li>
-                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger" ></span>Indicateurs</a>
+                                        <a href="#"><span class="glyphicon glyphicon-align-left text-success" ></span>PAYS</a>
                                     </li>
                                      <li>
-                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger" ></span>Thematiques</a>
+                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger" ></span>THEMES</a>
                                     </li>
                                 </ul>
                             </div>
@@ -131,26 +128,20 @@
 					<div class="notice-board">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-							<strong>ADRESSES UTILES EN AFRIQUE</strong> 
+							<strong>ADRESSES UTILES</strong> 
                                 <div class="pull-right" >
                                 </div>
                             </div>
                             <div class="panel-body">
                                 <ul>
                                      <li>
-                                        <a href="#"><span class="glyphicon glyphicon-align-left text-success"></span>Présidences et Ministères</a>
+                                        <a href="#"><span class="glyphicon glyphicon-align-left text-success"></span>AMBASSADES</a>
                                     </li>
                                      <li>
-                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger"></span>Chambres consulaires</a>
+                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger" ></span>INSTITUTIONS</a>
                                     </li>
 									<li>
-                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger"></span>Organisations patronales</a>
-                                    </li>                                                                             <li>
-                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger"></span>Bureau d'enregistrements ou d'immatriculations</a>
-                                    </li>                                                                            <li>
-                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger"></span>Organisations chargées des entreprises et investissements</a>
-                                    </li>                                                                              <li>
-                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger"></span>Cabinets spécialisés</a>
+                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger" ></span>ORGANISATIONS AFRICAINES</a>
                                     </li>
                                 </ul>
                             </div>
@@ -166,17 +157,43 @@
                             <div class="panel-body">
                                 <ul>
                                      <li>
-                                        <a href="#"><span class="glyphicon glyphicon-align-left text-success" ></span>Annuaire</a>
+                                        <a href="#"><span class="glyphicon glyphicon-align-left text-success" ></span>ANNUAIRE</a>
                                     </li>
                                      <li>
-                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger" ></span>Agenda / Evenements</a>
+                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger" ></span>EMPLOIS</a>
                                     </li>
-									
+									<li>
+                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger" ></span>PETITES ANNONCES</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-					  
+					<div class="notice-board">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+							<strong>INFOS INDISPENSABLES</strong> 
+                                <div class="pull-right" >
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <ul>
+                                     <li>
+                                        <a href="#"><span class="glyphicon glyphicon-align-left text-success" ></span>ACCORD COOPERATION</a>
+                                    </li>
+									<li>
+                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger" ></span>COUT DE FACTEUR</a>
+                                    </li>
+                                     <li>
+                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger" ></span>AGENDA</a>
+                                    </li>
+									<li>
+                                        <a href="#"><span class="glyphicon glyphicon-info-sign text-danger" ></span>EVENEMENT</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                     <hr />
                     <div class="text-center alert alert-warning">
                         <a href="#" class="btn btn-social btn-facebook">
